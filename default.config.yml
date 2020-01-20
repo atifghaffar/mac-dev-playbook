@@ -8,7 +8,7 @@ configure_osx: yes
 
 dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
-dotfiles_repo_local_destination: ~/Dropbox/Development/GitHub/dotfiles
+dotfiles_repo_local_destination: ~/Documents/Development/GitHub/dotfiles
 dotfiles_files:
   - .zshrc
   - .gitignore
@@ -36,6 +36,7 @@ homebrew_installed_packages:
   - node
   - nvm
   - php
+  - apache2
   - ssh-copy-id
   - cowsay
   - readline
@@ -50,14 +51,17 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - chromedriver
-  - docker
+  - iterm2
+  - tunnelblick
+  - textmate
+  - skype
+  # - docker
   - dropbox
   - firefox
   - google-chrome
-  - handbrake
+  # - handbrake
   - licecap
-  - macvim
+  # - macvim
   - sequel-pro
   - skitch
   - slack

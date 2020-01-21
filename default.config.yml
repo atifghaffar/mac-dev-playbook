@@ -44,6 +44,8 @@ homebrew_installed_packages:
   - pv
   - wget
   - wrk
+  - mariadb
+  - redis
 
 homebrew_taps:
   - homebrew/core
@@ -58,6 +60,7 @@ homebrew_cask_apps:
   # - docker
   - dropbox
   - firefox
+  - another-redis-desktop-manager
   - google-chrome
   # - handbrake
   - licecap

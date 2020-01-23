@@ -47,6 +47,7 @@ homebrew_installed_packages:
   - wrk
   - mariadb
   - redis
+  - lftp
 
 homebrew_taps:
   - homebrew/core

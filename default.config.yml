@@ -36,6 +36,7 @@ homebrew_installed_packages:
   - node
   - nvm
   - php
+  - composer
   - apache2
   - ssh-copy-id
   - cowsay
@@ -67,9 +68,9 @@ homebrew_cask_apps:
   # - macvim
   - sequel-pro
   - skitch
-  - slack
-  - sublime-text
-  - transmit
+  # - slack
+  # - sublime-text
+  # - transmit
   - vagrant
 
 # See `geerlingguy.mas` role documentation for usage instructions.

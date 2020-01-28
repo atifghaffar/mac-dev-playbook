@@ -48,6 +48,7 @@ homebrew_installed_packages:
   - mariadb
   - redis
   - lftp
+  - ipcalc
 
 homebrew_taps:
   - homebrew/core

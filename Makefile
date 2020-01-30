@@ -1,5 +1,5 @@
 upload:
-	rsync -av . aghaffar@docserver.pro:shell-environment
+	rsync -av . aghaffar@docserver.pro:mac-dev-playbook
 
 pull:
 	git pull origin master

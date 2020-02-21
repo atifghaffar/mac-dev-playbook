@@ -51,6 +51,7 @@ homebrew_installed_packages:
   - lftp
   - ipcalc
   - imagemagick
+  - imapfilter
 
 homebrew_taps:
   - homebrew/core
@@ -58,6 +59,7 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  - google-backup-and-sync
   - iterm2
   - tunnelblick
   - textmate

@@ -30,6 +30,7 @@ homebrew_installed_packages:
   - gpg
   - hub
   - httpie
+  - imapfilter
   - iperf
   - libevent
   - sqlite

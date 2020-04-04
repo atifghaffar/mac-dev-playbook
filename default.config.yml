@@ -61,6 +61,7 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  - atom
   - virtualbox
   - google-backup-and-sync
   - iterm2

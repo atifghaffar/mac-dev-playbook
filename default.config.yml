@@ -18,6 +18,7 @@ dotfiles_files:
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
+  - rsync
   - autoconf
   - bash-completion
   - cpanminus
@@ -27,6 +28,7 @@ homebrew_installed_packages:
   - git
   - swaks
   - go
+  - perl
   - gpg
   - hub
   - httpie
@@ -54,6 +56,7 @@ homebrew_installed_packages:
   - ipcalc
   - imagemagick
   - imapfilter
+  - telegram-cli
 
 homebrew_taps:
   - homebrew/core
@@ -61,6 +64,8 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  - telegram
+  - telegram-desktop
   - atom
   - virtualbox
   - google-backup-and-sync
@@ -84,6 +89,7 @@ homebrew_cask_apps:
   # - transmit
   - vagrant
   - stremio
+  - vlc
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
